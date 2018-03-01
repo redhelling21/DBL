@@ -11,9 +11,12 @@
   <div class="navbar-collapse" [ngbCollapse]="navbarCollapsed" id="navbarContent">
     <ul class="navbar-nav mr-auto ml-auto">
       <li class="nav-item">
-        <a class="nav-link" (click)="navbarCollapsed = true">Menu item</a>
+        <a class="nav-link" (click)="navbarCollapsed = true">Accueil</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" (click)="navbarCollapsed = true">Tâches</a>
       </li>
     </ul>
   </div>
-  <button [hidden]="!navbarCollapsed" type="button" class="btn btn-primary ml-3">Params</button>
+  <button [hidden]="!navbarCollapsed" type="button" class="btn btn-primary ml-3"><span class="glyphicon glyphicon-flag"></span></button>
 </nav>
