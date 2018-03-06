@@ -15,3 +15,9 @@
     flex: 0 0 200px;
   }
 }
+
+.topbar {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
