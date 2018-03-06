@@ -4,16 +4,16 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 
 import { AppComponent } from './app.component';
-import { NavigationbarComponent } from './navigationbar/navigationbar.component';
-import { FooterComponent } from './footer/footer.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { MainComponent } from './main/main.component';
 import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavigationbarComponent,
-    FooterComponent,
+    SidebarComponent,
+    MainComponent,
     HomeComponent
   ],
   imports: [
