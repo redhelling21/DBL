@@ -57,3 +57,13 @@ ul.custbreadcrumb li a:hover {
   color: #01447e;
   text-decoration: underline;
 }
+
+.btn-transparent{
+  background-color: unset;
+  border:none;
+}
+
+.btn-transparent:focus,.btn-transparent:active {
+  outline: none !important;
+  box-shadow: none;
+}
