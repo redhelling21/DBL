@@ -1,0 +1,21 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  color: #d0d0d0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+}
+
+li.active{
+  background-color: #717171;
+  color: white;
+}
+
+li:not(.active):hover{
+  background-color: #828282;
+  color: white;
+}
