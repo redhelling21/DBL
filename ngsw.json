@@ -1,18 +1,18 @@
 {
   "configVersion": 1,
-  "index": "/index.html",
+  "index": "'/DBL/'/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/favicon.ico",
-        "/index.html",
-        "/inline.318b50c57b4eba3d437b.bundle.js",
-        "/main.e2eb6cf990130d2d94ec.bundle.js",
-        "/polyfills.bf95165a1d5098766b92.bundle.js",
-        "/styles.3384547db781b3c2e7c6.bundle.css"
+        "'/DBL/'/favicon.ico",
+        "'/DBL/'/index.html",
+        "'/DBL/'/inline.318b50c57b4eba3d437b.bundle.js",
+        "'/DBL/'/main.e2eb6cf990130d2d94ec.bundle.js",
+        "'/DBL/'/polyfills.bf95165a1d5098766b92.bundle.js",
+        "'/DBL/'/styles.3384547db781b3c2e7c6.bundle.css"
       ],
       "patterns": []
     },
@@ -21,41 +21,41 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "/assets/images/logo.png",
-        "/assets/images/logo_small.png",
-        "/assets/images/logo_small_round.png",
-        "/assets/images/user.png",
-        "/assets/images/icons/icon-128x128.png",
-        "/assets/images/icons/icon-144x144.png",
-        "/assets/images/icons/icon-152x152.png",
-        "/assets/images/icons/icon-192x192.png",
-        "/assets/images/icons/icon-384x384.png",
-        "/assets/images/icons/icon-512x512.png",
-        "/assets/images/icons/icon-72x72.png",
-        "/assets/images/icons/icon-96x96.png"
+        "'/DBL/'/assets/images/logo.png",
+        "'/DBL/'/assets/images/logo_small.png",
+        "'/DBL/'/assets/images/logo_small_round.png",
+        "'/DBL/'/assets/images/user.png",
+        "'/DBL/'/assets/images/icons/icon-128x128.png",
+        "'/DBL/'/assets/images/icons/icon-144x144.png",
+        "'/DBL/'/assets/images/icons/icon-152x152.png",
+        "'/DBL/'/assets/images/icons/icon-192x192.png",
+        "'/DBL/'/assets/images/icons/icon-384x384.png",
+        "'/DBL/'/assets/images/icons/icon-512x512.png",
+        "'/DBL/'/assets/images/icons/icon-72x72.png",
+        "'/DBL/'/assets/images/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
-    "/assets/images/logo.png": "b68181ec376eb8ae6fc816b85491043dc568d1ef",
-    "/main.e2eb6cf990130d2d94ec.bundle.js": "1f729ad1a49c420b40bbd8e1a462f775791f54bf",
-    "/assets/images/logo_small.png": "c0f7a9ef94794bbf484ec75953a40893b7514d9e",
-    "/polyfills.bf95165a1d5098766b92.bundle.js": "5f49131c0c147a20f91b1e77814434e0c77bd3dc",
-    "/assets/images/logo_small_round.png": "af33aa276487fe1534d06ed4f1a69e5868dbd24a",
-    "/styles.3384547db781b3c2e7c6.bundle.css": "dd44093693daafbf583866d40e5f53297f815003",
-    "/assets/images/user.png": "63102da72ac7cee6facc73c411ea4245e1a04b02",
-    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/assets/images/icons/icon-128x128.png": "4cf16bc5e8fe66995337f319f999fb56c636707d",
-    "/index.html": "c76d795125c354b59f0ec7122313fb39acebe3da",
-    "/assets/images/icons/icon-144x144.png": "3c6dc4d3de053db46ac15bd1ed1ef0a2ef07b4f0",
-    "/assets/images/icons/icon-152x152.png": "430b9c22a798ffc749035b3c91ee47b681e284bf",
-    "/assets/images/icons/icon-192x192.png": "58ac2d340391931b7c271c6551cfc3930f28aae9",
-    "/assets/images/icons/icon-384x384.png": "28250b35a0a40b01df35e44fd487fcd325d093d3",
-    "/assets/images/icons/icon-512x512.png": "28250b35a0a40b01df35e44fd487fcd325d093d3",
-    "/assets/images/icons/icon-72x72.png": "06013b57313bd6cf1c7b12fe6cc3e75e33674d0d",
-    "/assets/images/icons/icon-96x96.png": "48e282e70b75fef0ff7cfc6da3ee0e9b50549f81"
+    "'/DBL/'/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
+    "'/DBL/'/assets/images/logo.png": "b68181ec376eb8ae6fc816b85491043dc568d1ef",
+    "'/DBL/'/main.e2eb6cf990130d2d94ec.bundle.js": "1f729ad1a49c420b40bbd8e1a462f775791f54bf",
+    "'/DBL/'/assets/images/logo_small.png": "c0f7a9ef94794bbf484ec75953a40893b7514d9e",
+    "'/DBL/'/polyfills.bf95165a1d5098766b92.bundle.js": "5f49131c0c147a20f91b1e77814434e0c77bd3dc",
+    "'/DBL/'/assets/images/logo_small_round.png": "af33aa276487fe1534d06ed4f1a69e5868dbd24a",
+    "'/DBL/'/styles.3384547db781b3c2e7c6.bundle.css": "dd44093693daafbf583866d40e5f53297f815003",
+    "'/DBL/'/assets/images/user.png": "63102da72ac7cee6facc73c411ea4245e1a04b02",
+    "'/DBL/'/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "'/DBL/'/assets/images/icons/icon-128x128.png": "4cf16bc5e8fe66995337f319f999fb56c636707d",
+    "'/DBL/'/index.html": "5ca29a6174b7694aaa558ba45a9e57b06dc8a8fa",
+    "'/DBL/'/assets/images/icons/icon-144x144.png": "3c6dc4d3de053db46ac15bd1ed1ef0a2ef07b4f0",
+    "'/DBL/'/assets/images/icons/icon-152x152.png": "430b9c22a798ffc749035b3c91ee47b681e284bf",
+    "'/DBL/'/assets/images/icons/icon-192x192.png": "58ac2d340391931b7c271c6551cfc3930f28aae9",
+    "'/DBL/'/assets/images/icons/icon-384x384.png": "28250b35a0a40b01df35e44fd487fcd325d093d3",
+    "'/DBL/'/assets/images/icons/icon-512x512.png": "28250b35a0a40b01df35e44fd487fcd325d093d3",
+    "'/DBL/'/assets/images/icons/icon-72x72.png": "06013b57313bd6cf1c7b12fe6cc3e75e33674d0d",
+    "'/DBL/'/assets/images/icons/icon-96x96.png": "48e282e70b75fef0ff7cfc6da3ee0e9b50549f81"
   }
 }
