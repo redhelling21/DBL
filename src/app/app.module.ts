@@ -9,6 +9,8 @@ import { MainComponent } from './main/main.component';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
+import {ServiceWorkerModule} from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 
 @NgModule({
@@ -22,7 +24,8 @@ import { ProgressBarComponent } from './progress-bar/progress-bar.component';
   imports: [
     BrowserModule,
     NgbModule.forRoot(),
-    AppRoutingModule
+    AppRoutingModule,
+    environment.production ? ServiceWorkerModule.register('/ngsw-worker.js') : []
   ],
   providers: [],
   bootstrap: [AppComponent]
