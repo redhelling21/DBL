@@ -27,3 +27,25 @@ a{
 a:hover{
   text-decoration:none;
 }
+
+span.bar-small {
+  display: none !important;
+  visibility: hidden;
+  opacity : 0;
+}
+
+#logo-div.bar-small {
+  display: none !important;
+  visibility: hidden;
+  opacity : 0;
+}
+
+.hidden-small.bar-small {
+  display: none !important;
+  visibility: hidden;
+  opacity : 0;
+}
+
+#sidebar-div.bar-small {
+  width: 62px !important;
+}
