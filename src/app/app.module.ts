@@ -12,6 +12,8 @@ import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import {ServiceWorkerModule} from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { AllTaskComponent } from './all-task/all-task.component';
+import {TaskService} from './task.service';
+import {HttpModule} from '@angular/http';
 
 
 @NgModule({
@@ -27,9 +29,10 @@ import { AllTaskComponent } from './all-task/all-task.component';
     BrowserModule,
     NgbModule.forRoot(),
     AppRoutingModule,
+    HttpModule,
     environment.production ? ServiceWorkerModule.register('./ngsw-worker.js') : []
   ],
-  providers: [],
+  providers: [TaskService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
