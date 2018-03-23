@@ -11,6 +11,7 @@ import { AppRoutingModule } from './/app-routing.module';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import {ServiceWorkerModule} from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { AllTaskComponent } from './all-task/all-task.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { environment } from '../environments/environment';
     SidebarComponent,
     MainComponent,
     HomeComponent,
-    ProgressBarComponent
+    ProgressBarComponent,
+    AllTaskComponent
   ],
   imports: [
     BrowserModule,
