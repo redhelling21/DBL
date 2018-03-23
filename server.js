@@ -1,5 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const compression = require('compression');
 const path = require('path');
 const http = require('http');
 const app = express();
@@ -10,6 +11,9 @@ const api = require('./server/routes/api');
 // Parsers
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false}));
+
+// GZIP all assets
+app.use(compression());
 
 // Angular DIST output folder
 app.use(express.static(path.join(__dirname, 'dist')));
