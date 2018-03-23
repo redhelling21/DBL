@@ -7,7 +7,7 @@ import {TaskService} from '../task.service';
   styleUrls: ['./all-task.component.css']
 })
 export class AllTaskComponent implements OnInit {
-
+  tasks: Array<any>;
   constructor(private _taskService: TaskService){
     // Access the Task Service's getTasks() method we defined
     this._taskService.getAllTasks()
