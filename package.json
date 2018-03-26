@@ -12,7 +12,6 @@
     "start": "ng serve -prod",
     "build": "ng build --aot --prod",
     "serve": "ng build --prod && http-server dist",
-    "publish": "ng build --prod --base-href /DBL/ && ngh --no-silent --repo=https://df57e2a1c15aa1d3e7777208d99c28719f1d9324@github.com/redhelling21/DBL.git --name='Théo Buri' --email=theo.buri@gmail.com",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",

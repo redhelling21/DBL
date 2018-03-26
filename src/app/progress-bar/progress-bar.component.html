@@ -1,14 +1,14 @@
 
   <div class="card" style="padding: 0px; margin: 15px">
     <div class="card-body" style="padding-right:60px; z-index: 3">
-      <h5 class="card-title">Titre de la tâche</h5>
-      <p class="card-text">Description</p>
+      <h5 class="card-title">{{title}}</h5>
+      <p class="card-text">{{desc}}</p>
     </div>
-    <div class="percent-background" style="background-color: #ff00006b;height: 56%; width: 100%; position: absolute; bottom: 0; z-index: 2">
-      <span style="color: white; font-weight: bold; position: absolute; top: 0; right: 3px;">56%</span>
+    <div class="percent-background" [ngStyle]="{'height.%': completion, 'background-color': getColorCompletion()}" style="width: 100%; position: absolute; bottom: 0; z-index: 2; border-radius: 2px; min-height: 20%">
+      <span style="color: white; font-weight: bold; position: absolute; top: 0; right: 3px;">{{completion}}%</span>
     </div>
     <div class="day-chip" style="left: -15px; border: 1px solid #dcdcdc; border-radius: 200px; position: absolute; z-index: 10; width: 35px; height: 35px; top: -15px; text-align: center; background-color: white;">
-      <span style="font-weight: bold; line-height: 33px;">3</span>
+      <span style="font-weight: bold; line-height: 33px;">{{duration}}</span>
     </div>
   </div>
 
