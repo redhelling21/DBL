@@ -5,7 +5,6 @@ import {AllTaskComponent} from './all-task/all-task.component';
 
 
 const routes: Routes = [
-  { path: '', component: HomeComponent, pathMatch: 'full'},
   { path: 'home', component: HomeComponent },
   { path: 'all', component: AllTaskComponent },
   { path: '**', redirectTo: '/home' }
