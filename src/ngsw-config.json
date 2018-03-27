@@ -23,6 +23,15 @@
         "/assets/**"
       ]
     }
+  },
+    {
+    "name": "fonts",
+      "resources": {
+        "files": [
+          "/Roboto*",
+          "/MaterialIcons*"
+        ]
+      }
   }],
   "dataGroups":
   [
