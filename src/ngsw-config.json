@@ -26,6 +26,8 @@
   },
     {
     "name": "fonts",
+    "installMode": "lazy",
+    "updateMode": "prefetch",
       "resources": {
         "files": [
           "/Roboto*",
