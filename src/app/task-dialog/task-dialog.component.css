@@ -11,3 +11,15 @@
   padding: 0px 15px 0px 0px;
   border: none;
 }
+
+ngb-typehead-window {
+  padding: 0px;
+}
+
+.dropdown-item.active {
+  background-color: #008db7 !important;
+}
+
+.btn-link {
+  color: #008db7;
+}

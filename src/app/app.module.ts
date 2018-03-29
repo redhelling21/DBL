@@ -17,6 +17,7 @@ import {HttpModule} from '@angular/http';
 import {MatDialog, MatDialogModule} from '@angular/material';
 import { TaskDialogComponent } from './task-dialog/task-dialog.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {FormsModule} from '@angular/forms';
 
 
 @NgModule({
@@ -36,6 +37,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     HttpModule,
     BrowserAnimationsModule,
     MatDialogModule,
+    FormsModule,
     environment.production ? ServiceWorkerModule.register('./ngsw-worker.js') : []
   ],
   providers: [TaskService],
