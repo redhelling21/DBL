@@ -14,6 +14,9 @@ import { environment } from '../environments/environment';
 import { AllTaskComponent } from './all-task/all-task.component';
 import {TaskService} from './task.service';
 import {HttpModule} from '@angular/http';
+import {MatDialog, MatDialogModule} from '@angular/material';
+import { TaskDialogComponent } from './task-dialog/task-dialog.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -23,16 +26,22 @@ import {HttpModule} from '@angular/http';
     MainComponent,
     HomeComponent,
     ProgressBarComponent,
-    AllTaskComponent
+    AllTaskComponent,
+    TaskDialogComponent
   ],
   imports: [
     BrowserModule,
     NgbModule.forRoot(),
     AppRoutingModule,
     HttpModule,
+    BrowserAnimationsModule,
+    MatDialogModule,
     environment.production ? ServiceWorkerModule.register('./ngsw-worker.js') : []
   ],
   providers: [TaskService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [
+    TaskDialogComponent,
+  ]
 })
 export class AppModule { }
