@@ -57,6 +57,17 @@ ul.custbreadcrumb li a:hover {
   box-shadow: none;
 }
 
+.btn-outline-primary-custom{
+  color: #008db7;
+  border-color: #008db7;
+}
+
+.btn-outline-primary-custom:hover {
+  background-color: #008db7;
+  border-color: #008db7;
+  color: #ffffff;
+}
+
 ::-webkit-scrollbar {
   width: 6px;
 }
