@@ -68,6 +68,18 @@ ul.custbreadcrumb li a:hover {
   color: #ffffff;
 }
 
+button.dropdown-item.active {
+  background-color: #008db7 !important;
+}
+
+.dropdown-menu {
+  padding: 0px !important;
+}
+
+.btn-link {
+  color: #008db7;
+}
+
 ::-webkit-scrollbar {
   width: 6px;
 }
