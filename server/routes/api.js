@@ -32,7 +32,8 @@ router.get('/', (req, res) => {
 
 // Get users
 router.get('/tasks', (req, res) => {
-    connection((dbclient) => {
+  console.log("Dans l'api : " + req.body);
+  connection((dbclient) => {
         var db = dbclient.db('dbl_bdd');
         db.collection('tasks')
             .find()
@@ -45,6 +46,19 @@ router.get('/tasks', (req, res) => {
                 sendError(err, res);
             });
     });
+});
+
+router.post('/task/new', (req, res) => {
+  // console.log("Dans l'api : " + JSON.stringify(req.body));
+  connection((dbclient) => {
+    var db = dbclient.db('dbl_bdd');
+    db.collection('tasks')
+      .insertOne(req.body)
+      .catch((err) => {
+        sendError(err, res);
+      });
+  });
+  return res;
 });
 
 module.exports = router;

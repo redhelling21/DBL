@@ -14,7 +14,7 @@ import { environment } from '../environments/environment';
 import { AllTaskComponent } from './all-task/all-task.component';
 import {TaskService} from './task.service';
 import {HttpModule} from '@angular/http';
-import {MatDialog, MatDialogModule} from '@angular/material';
+import {MatDatepickerModule, MatDialog, MatDialogModule, MatNativeDateModule} from '@angular/material';
 import { TaskDialogComponent } from './task-dialog/task-dialog.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {FormsModule} from '@angular/forms';
@@ -37,6 +37,8 @@ import {FormsModule} from '@angular/forms';
     HttpModule,
     BrowserAnimationsModule,
     MatDialogModule,
+    MatNativeDateModule,
+    MatDatepickerModule,
     FormsModule,
     environment.production ? ServiceWorkerModule.register('./ngsw-worker.js') : []
   ],

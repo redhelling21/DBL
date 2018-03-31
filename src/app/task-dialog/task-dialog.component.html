@@ -8,12 +8,12 @@
   <div class="modal-body">
     <div class="row" style="margin: 20px 0px 20px 0px;">
       <div class="col">
-        <input type="text" class="form-control" placeholder="Nom">
+        <input type="text" class="form-control" placeholder="Nom" [(ngModel)]="name">
       </div>
     </div>
     <div class="row" style="margin: 20px 0px 20px 0px;">
       <div class="col">
-        <textarea placeholder="Description" class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+        <textarea placeholder="Description" class="form-control" id="exampleFormControlTextarea1" rows="5" [(ngModel)]="description"></textarea>
       </div>
     </div>
     <div class="row" style="margin: 20px 0px 20px 0px;">
@@ -23,20 +23,16 @@
       <div class="col">
         <div class="form-group">
           <div class="input-group">
-            <input class="form-control" placement="top" placeholder="yyyy-mm-dd"
-                   name="dp"  ngbDatepicker #d="ngbDatepicker">
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary" (click)="d.toggle()" type="button">
-                <i class="material-icons" style="vertical-align: middle; font-size: 22px;">date_range</i>
-              </button>
-            </div>
+            <input [matDatepicker]="myDatepicker" class="form-control" placement="top" placeholder="dd/MM/yyyy" [(ngModel)]="end_date">
+              <mat-datepicker-toggle [for]="myDatepicker"></mat-datepicker-toggle>
+              <mat-datepicker #myDatepicker></mat-datepicker>
           </div>
         </div>
       </div>
     </div>
   </div>
   <div class="modal-footer">
-    <button type="button" class="btn btn-outline-primary btn-outline-primary-custom">Save changes</button>
+    <button type="button" class="btn btn-outline-primary btn-outline-primary-custom" (click)="createTask()">Save changes</button>
     <button type="button" class="btn btn-outline-secondary" (click)="closeModal()">Close</button>
   </div>
 </div>
